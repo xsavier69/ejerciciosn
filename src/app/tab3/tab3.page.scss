@@ -1,0 +1,9 @@
+ion-img {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    ion-img {
+        display: none;
+    }
+}

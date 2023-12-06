@@ -1,0 +1,17 @@
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+    
+  }
+  ion-card{
+    --background:#c76565;
+  }
+
+  @media screen and (max-width: 400px) {
+ion-card{
+    --background:#000;
+}
+
+
+  }
